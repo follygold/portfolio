@@ -1,0 +1,24 @@
+[2023-02-10T15:26:47.583+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: cms_asp_noc.load_test manual__2023-02-10T15:26:34.927942+00:00 [queued]>
+[2023-02-10T15:26:47.592+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: cms_asp_noc.load_test manual__2023-02-10T15:26:34.927942+00:00 [queued]>
+[2023-02-10T15:26:47.593+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-10T15:26:47.594+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-02-10T15:26:47.594+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-10T15:26:47.606+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): load_test> on 2023-02-10 15:26:34.927942+00:00
+[2023-02-10T15:26:47.615+0000] {standard_task_runner.py:55} INFO - Started process 42883 to run task
+[2023-02-10T15:26:47.620+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'cms_asp_noc', 'load_test', 'manual__2023-02-10T15:26:34.927942+00:00', '--job-id', '1693', '--raw', '--subdir', 'DAGS_FOLDER/cms_upd.py', '--cfg-path', '/tmp/tmpxtkdeboo']
+[2023-02-10T15:26:47.624+0000] {standard_task_runner.py:83} INFO - Job 1693: Subtask load_test
+[2023-02-10T15:26:47.736+0000] {task_command.py:388} INFO - Running <TaskInstance: cms_asp_noc.load_test manual__2023-02-10T15:26:34.927942+00:00 [running]> on host 2886274f27ea
+[2023-02-10T15:26:47.821+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=cms_asp_noc
+AIRFLOW_CTX_TASK_ID=load_test
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-10T15:26:34.927942+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-10T15:26:34.927942+00:00
+[2023-02-10T15:26:47.828+0000] {logging_mixin.py:137} INFO - (1, 'home', 'nigeria', 'lagos', 'iju', '2555', '1,benson street', None, None, None, None, None)
+[2023-02-10T15:26:47.829+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-02-10T15:26:48.229+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=cms_asp_noc, task_id=load_test, execution_date=20230210T152634, start_date=20230210T152647, end_date=20230210T152648
+[2023-02-10T15:26:48.322+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-02-10T15:26:48.359+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

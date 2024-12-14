@@ -1,0 +1,26 @@
+[2023-03-03T00:00:33.887+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: cms_asp_noc.get_files scheduled__2023-03-02T00:00:00+00:00 [queued]>
+[2023-03-03T00:00:33.893+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: cms_asp_noc.get_files scheduled__2023-03-02T00:00:00+00:00 [queued]>
+[2023-03-03T00:00:33.894+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-03T00:00:33.894+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-03-03T00:00:33.895+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-03T00:00:33.903+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): get_files> on 2023-03-02 00:00:00+00:00
+[2023-03-03T00:00:33.908+0000] {standard_task_runner.py:55} INFO - Started process 84154 to run task
+[2023-03-03T00:00:33.912+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'cms_asp_noc', 'get_files', 'scheduled__2023-03-02T00:00:00+00:00', '--job-id', '1920', '--raw', '--subdir', 'DAGS_FOLDER/cms_upd.py', '--cfg-path', '/tmp/tmpdh5ior88']
+[2023-03-03T00:00:33.914+0000] {standard_task_runner.py:83} INFO - Job 1920: Subtask get_files
+[2023-03-03T00:00:34.088+0000] {task_command.py:388} INFO - Running <TaskInstance: cms_asp_noc.get_files scheduled__2023-03-02T00:00:00+00:00 [running]> on host 2886274f27ea
+[2023-03-03T00:00:34.134+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=cms_asp_noc
+AIRFLOW_CTX_TASK_ID=get_files
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-02T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-03-02T00:00:00+00:00
+[2023-03-03T00:00:34.149+0000] {updates.py:41} INFO - updated asp_pricing
+[2023-03-03T00:00:34.164+0000] {updates.py:55} INFO - updated asp_ndc_hcpcs
+[2023-03-03T00:00:34.181+0000] {updates.py:69} INFO - updated noc_ndc_hcpcs
+[2023-03-03T00:00:34.185+0000] {python.py:177} INFO - Done. Returned value was: NO UPDATES
+[2023-03-03T00:00:34.205+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=cms_asp_noc, task_id=get_files, execution_date=20230302T000000, start_date=20230303T000033, end_date=20230303T000034
+[2023-03-03T00:00:34.247+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-03-03T00:00:34.269+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

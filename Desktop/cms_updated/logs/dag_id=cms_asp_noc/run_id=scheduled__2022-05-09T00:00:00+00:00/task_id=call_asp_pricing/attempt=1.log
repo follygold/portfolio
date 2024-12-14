@@ -1,0 +1,74 @@
+[2023-02-10T14:45:13.836+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: cms_asp_noc.call_asp_pricing scheduled__2022-05-09T00:00:00+00:00 [queued]>
+[2023-02-10T14:45:14.196+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: cms_asp_noc.call_asp_pricing scheduled__2022-05-09T00:00:00+00:00 [queued]>
+[2023-02-10T14:45:14.203+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-10T14:45:14.206+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-02-10T14:45:14.211+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-10T14:45:14.506+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): call_asp_pricing> on 2022-05-09 00:00:00+00:00
+[2023-02-10T14:45:15.155+0000] {standard_task_runner.py:55} INFO - Started process 40867 to run task
+[2023-02-10T14:45:15.771+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'cms_asp_noc', 'call_asp_pricing', 'scheduled__2022-05-09T00:00:00+00:00', '--job-id', '1679', '--raw', '--subdir', 'DAGS_FOLDER/cms_upd.py', '--cfg-path', '/tmp/tmpuwwzd5k_']
+[2023-02-10T14:45:16.266+0000] {standard_task_runner.py:83} INFO - Job 1679: Subtask call_asp_pricing
+[2023-02-10T14:45:20.827+0000] {task_command.py:388} INFO - Running <TaskInstance: cms_asp_noc.call_asp_pricing scheduled__2022-05-09T00:00:00+00:00 [running]> on host 2886274f27ea
+[2023-02-10T14:45:21.527+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=cms_asp_noc
+AIRFLOW_CTX_TASK_ID=call_asp_pricing
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-09T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-05-09T00:00:00+00:00
+[2023-02-10T14:45:21.645+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/cms_pg/call_procedure.py", line 21, in call_procedure
+    cur.execute("call sp_upsert_asp_pricing()")
+psycopg2.errors.UndefinedTable: relation "cms.ASP Pricing" does not exist
+LINE 1: UPDATE cms."ASP Pricing" ASP
+               ^
+QUERY:  UPDATE cms."ASP Pricing" ASP
+		SET "Date_Uploaded" = stg."Date_Uploaded",
+			"Short_Description" = stg."Short_Description",
+			"HCPCS_Code_Dosage" = stg."HCPCS_Code_Dosage",
+			"Payment_Limit" = stg."Payment_Limit",
+			"Vaccine_AWP%" = stg."Vaccine_AWP%",
+			"Vaccine_Limit" = stg."Vaccine_Limit",
+			"Blood_AWP%" = stg."Blood_AWP%",
+			"Blood_limit" = stg."Blood_limit",
+			"Clotting_Factor" = stg."Clotting_Factor",
+			"Notes" = stg."Notes",
+			"Date_created"  = stg."Date_created",
+			modification_time = stg.modification_time,
+			"IsUpdated" = TRUE
+		FROM public."ASP Pricing" stg
+		where ASP."HCPCS_Code" = stg."HCPCS_Code"
+		and ASP.quarter = stg.quarter
+CONTEXT:  PL/pgSQL function sp_upsert_asp_pricing() line 6 at SQL statement
+
+[2023-02-10T14:45:24.194+0000] {taskinstance.py:1323} INFO - Marking task as FAILED. dag_id=cms_asp_noc, task_id=call_asp_pricing, execution_date=20220509T000000, start_date=20230210T144513, end_date=20230210T144524
+[2023-02-10T14:45:24.213+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 1679 for task call_asp_pricing (relation "cms.ASP Pricing" does not exist
+LINE 1: UPDATE cms."ASP Pricing" ASP
+               ^
+QUERY:  UPDATE cms."ASP Pricing" ASP
+		SET "Date_Uploaded" = stg."Date_Uploaded",
+			"Short_Description" = stg."Short_Description",
+			"HCPCS_Code_Dosage" = stg."HCPCS_Code_Dosage",
+			"Payment_Limit" = stg."Payment_Limit",
+			"Vaccine_AWP%" = stg."Vaccine_AWP%",
+			"Vaccine_Limit" = stg."Vaccine_Limit",
+			"Blood_AWP%" = stg."Blood_AWP%",
+			"Blood_limit" = stg."Blood_limit",
+			"Clotting_Factor" = stg."Clotting_Factor",
+			"Notes" = stg."Notes",
+			"Date_created"  = stg."Date_created",
+			modification_time = stg.modification_time,
+			"IsUpdated" = TRUE
+		FROM public."ASP Pricing" stg
+		where ASP."HCPCS_Code" = stg."HCPCS_Code"
+		and ASP.quarter = stg.quarter
+CONTEXT:  PL/pgSQL function sp_upsert_asp_pricing() line 6 at SQL statement
+; 40867)
+[2023-02-10T14:45:24.319+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-02-10T14:45:24.377+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

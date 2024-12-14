@@ -1,0 +1,21 @@
+[2023-02-08T12:56:00.980+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: cms_asp_noc.website_changed scheduled__2022-02-12T00:00:00+00:00 [queued]>
+[2023-02-08T12:56:01.115+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: cms_asp_noc.website_changed scheduled__2022-02-12T00:00:00+00:00 [queued]>
+[2023-02-08T12:56:01.116+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-08T12:56:01.119+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-02-08T12:56:01.122+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-08T12:56:01.512+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): website_changed> on 2022-02-12 00:00:00+00:00
+[2023-02-08T12:56:01.696+0000] {standard_task_runner.py:55} INFO - Started process 511 to run task
+[2023-02-08T12:56:01.835+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'cms_asp_noc', 'website_changed', 'scheduled__2022-02-12T00:00:00+00:00', '--job-id', '83', '--raw', '--subdir', 'DAGS_FOLDER/cms_upd.py', '--cfg-path', '/tmp/tmp734_qf3y']
+[2023-02-08T12:56:01.947+0000] {standard_task_runner.py:83} INFO - Job 83: Subtask website_changed
+[2023-02-08T12:56:03.299+0000] {task_command.py:388} INFO - Running <TaskInstance: cms_asp_noc.website_changed scheduled__2022-02-12T00:00:00+00:00 [running]> on host 4ed7ae61ecf3
+[2023-02-08T12:56:04.590+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=cms_asp_noc
+AIRFLOW_CTX_TASK_ID=website_changed
+AIRFLOW_CTX_EXECUTION_DATE=2022-02-12T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-02-12T00:00:00+00:00
+[2023-02-08T12:56:46.524+0000] {local_task_job.py:208} INFO - Task exited with return code Negsignal.SIGKILL
+[2023-02-08T12:56:46.933+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

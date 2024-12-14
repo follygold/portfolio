@@ -1,0 +1,39 @@
+[2023-02-09T19:40:57.091+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: cms_asp_noc.populate_all_tables manual__2023-02-08T17:31:54+00:00 [queued]>
+[2023-02-09T19:40:57.099+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: cms_asp_noc.populate_all_tables manual__2023-02-08T17:31:54+00:00 [queued]>
+[2023-02-09T19:40:57.100+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-09T19:40:57.100+0000] {taskinstance.py:1280} INFO - Starting attempt 4 of 4
+[2023-02-09T19:40:57.101+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-09T19:40:57.108+0000] {taskinstance.py:1300} INFO - Executing <Task(PostgresOperator): populate_all_tables> on 2023-02-08 17:31:54+00:00
+[2023-02-09T19:40:57.115+0000] {standard_task_runner.py:55} INFO - Started process 10082 to run task
+[2023-02-09T19:40:57.120+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'cms_asp_noc', 'populate_all_tables', 'manual__2023-02-08T17:31:54+00:00', '--job-id', '1587', '--raw', '--subdir', 'DAGS_FOLDER/cms_upd.py', '--cfg-path', '/tmp/tmpojiufkre']
+[2023-02-09T19:40:57.123+0000] {standard_task_runner.py:83} INFO - Job 1587: Subtask populate_all_tables
+[2023-02-09T19:40:57.187+0000] {task_command.py:388} INFO - Running <TaskInstance: cms_asp_noc.populate_all_tables manual__2023-02-08T17:31:54+00:00 [running]> on host 64b688f0f9e2
+[2023-02-09T19:40:57.246+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=cms_asp_noc
+AIRFLOW_CTX_TASK_ID=populate_all_tables
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-08T17:31:54+00:00
+AIRFLOW_CTX_TRY_NUMBER=4
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-08T17:31:54+00:00
+[2023-02-09T19:40:57.248+0000] {sql.py:254} INFO - Executing: ['call sp_upsert_asp_pricing();\ncall sp_upsert_asp_ndc_hcpcs();\ncall sp_upsert_noc_NDC_HCPCS();']
+[2023-02-09T19:40:57.558+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/operators/sql.py", line 255, in execute
+    hook = self.get_db_hook()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/operators/sql.py", line 179, in get_db_hook
+    return self._hook
+  File "/home/airflow/.local/lib/python3.7/site-packages/cached_property.py", line 36, in __get__
+    value = obj.__dict__[self.func.__name__] = self.func(obj)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/operators/sql.py", line 141, in _hook
+    conn = BaseHook.get_connection(self.conn_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/base.py", line 72, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/connection.py", line 435, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `postgres_conn` isn't defined
+[2023-02-09T19:40:57.562+0000] {taskinstance.py:1323} INFO - Marking task as FAILED. dag_id=cms_asp_noc, task_id=populate_all_tables, execution_date=20230208T173154, start_date=20230209T194057, end_date=20230209T194057
+[2023-02-09T19:40:57.571+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 1587 for task populate_all_tables (The conn_id `postgres_conn` isn't defined; 10082)
+[2023-02-09T19:40:57.622+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-02-09T19:40:57.641+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

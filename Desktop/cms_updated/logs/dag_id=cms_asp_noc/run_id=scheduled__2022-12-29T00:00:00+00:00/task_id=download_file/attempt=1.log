@@ -1,0 +1,102 @@
+[2023-02-08T15:25:35.159+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: cms_asp_noc.download_file scheduled__2022-12-29T00:00:00+00:00 [queued]>
+[2023-02-08T15:25:35.200+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: cms_asp_noc.download_file scheduled__2022-12-29T00:00:00+00:00 [queued]>
+[2023-02-08T15:25:35.201+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-08T15:25:35.202+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-02-08T15:25:35.202+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-08T15:25:35.277+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): download_file> on 2022-12-29 00:00:00+00:00
+[2023-02-08T15:25:35.329+0000] {standard_task_runner.py:55} INFO - Started process 4471 to run task
+[2023-02-08T15:25:35.363+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'cms_asp_noc', 'download_file', 'scheduled__2022-12-29T00:00:00+00:00', '--job-id', '1383', '--raw', '--subdir', 'DAGS_FOLDER/cms_upd.py', '--cfg-path', '/tmp/tmpvlp37cdj']
+[2023-02-08T15:25:35.376+0000] {standard_task_runner.py:83} INFO - Job 1383: Subtask download_file
+[2023-02-08T15:25:35.618+0000] {task_command.py:388} INFO - Running <TaskInstance: cms_asp_noc.download_file scheduled__2022-12-29T00:00:00+00:00 [running]> on host 1f90076947be
+[2023-02-08T15:25:37.140+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=cms_asp_noc
+AIRFLOW_CTX_TASK_ID=download_file
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-29T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-12-29T00:00:00+00:00
+[2023-02-08T15:25:40.472+0000] {logging_mixin.py:137} INFO - july-2022-asp-pricing-file-updated-12142022.zip is downloaded.
+[2023-02-08T15:25:40.612+0000] {logging_mixin.py:137} INFO - january-2023-noc-pricing-file.zip is downloaded.
+[2023-02-08T15:25:40.963+0000] {logging_mixin.py:137} INFO - january-2022-asp-ndc-hcpcs-crosswalk.zip is downloaded.
+[2023-02-08T15:25:41.159+0000] {logging_mixin.py:137} INFO - january-2022-asp-pricing-file-updated-06082022.zip is downloaded.
+[2023-02-08T15:25:41.466+0000] {logging_mixin.py:137} INFO - october-2022-asp-ndc-hcpcs-crosswalks-updated-12212022.zip is downloaded.
+[2023-02-08T15:25:41.630+0000] {logging_mixin.py:137} INFO - july-2022-noc-pricing-file.zip is downloaded.
+[2023-02-08T15:25:56.211+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connection.py", line 424, in connect
+    tls_in_tls=tls_in_tls,
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/util/ssl_.py", line 450, in ssl_wrap_socket
+    sock, context, tls_in_tls, server_hostname=server_hostname
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/local/lib/python3.7/ssl.py", line 423, in wrap_socket
+    session=session
+  File "/usr/local/lib/python3.7/ssl.py", line 870, in _create
+    self.do_handshake()
+  File "/usr/local/lib/python3.7/ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+OSError: [Errno 0] Error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/adapters.py", line 499, in send
+    timeout=timeout,
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 788, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connection.py", line 424, in connect
+    tls_in_tls=tls_in_tls,
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/util/ssl_.py", line 450, in ssl_wrap_socket
+    sock, context, tls_in_tls, server_hostname=server_hostname
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/local/lib/python3.7/ssl.py", line 423, in wrap_socket
+    session=session
+  File "/usr/local/lib/python3.7/ssl.py", line 870, in _create
+    self.do_handshake()
+  File "/usr/local/lib/python3.7/ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', OSError(0, 'Error'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/cms_pg/download_new_files.py", line 49, in download_zip_files
+    response = requests.get(url)
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/adapters.py", line 547, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', OSError(0, 'Error'))
+[2023-02-08T15:25:56.267+0000] {taskinstance.py:1323} INFO - Marking task as FAILED. dag_id=cms_asp_noc, task_id=download_file, execution_date=20221229T000000, start_date=20230208T152535, end_date=20230208T152556
+[2023-02-08T15:25:56.312+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 1383 for task download_file (('Connection aborted.', OSError(0, 'Error')); 4471)
+[2023-02-08T15:25:56.680+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-02-08T15:25:57.306+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

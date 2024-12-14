@@ -1,0 +1,27 @@
+[2023-02-14T00:00:42.559+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: cms_asp_noc.email_alert scheduled__2023-02-13T00:00:00+00:00 [queued]>
+[2023-02-14T00:00:42.572+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: cms_asp_noc.email_alert scheduled__2023-02-13T00:00:00+00:00 [queued]>
+[2023-02-14T00:00:42.573+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-14T00:00:42.573+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-02-14T00:00:42.574+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-14T00:00:42.587+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): email_alert> on 2023-02-13 00:00:00+00:00
+[2023-02-14T00:00:42.597+0000] {standard_task_runner.py:55} INFO - Started process 57379 to run task
+[2023-02-14T00:00:42.601+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'cms_asp_noc', 'email_alert', 'scheduled__2023-02-13T00:00:00+00:00', '--job-id', '1764', '--raw', '--subdir', 'DAGS_FOLDER/cms_upd.py', '--cfg-path', '/tmp/tmpdm710fu0']
+[2023-02-14T00:00:42.603+0000] {standard_task_runner.py:83} INFO - Job 1764: Subtask email_alert
+[2023-02-14T00:00:43.244+0000] {task_command.py:388} INFO - Running <TaskInstance: cms_asp_noc.email_alert scheduled__2023-02-13T00:00:00+00:00 [running]> on host 2886274f27ea
+[2023-02-14T00:00:43.303+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=cms_asp_noc
+AIRFLOW_CTX_TASK_ID=email_alert
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-13T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-13T00:00:00+00:00
+[2023-02-14T00:00:48.354+0000] {updates.py:41} INFO - updated asp_pricing
+[2023-02-14T00:00:48.376+0000] {updates.py:55} INFO - updated asp_ndc_hcpcs
+[2023-02-14T00:00:48.393+0000] {updates.py:69} INFO - updated noc_ndc_hcpcs
+[2023-02-14T00:00:48.399+0000] {logging_mixin.py:137} INFO - []
+[2023-02-14T00:00:48.400+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-02-14T00:00:48.416+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=cms_asp_noc, task_id=email_alert, execution_date=20230213T000000, start_date=20230214T000042, end_date=20230214T000048
+[2023-02-14T00:00:48.533+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-02-14T00:00:48.975+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

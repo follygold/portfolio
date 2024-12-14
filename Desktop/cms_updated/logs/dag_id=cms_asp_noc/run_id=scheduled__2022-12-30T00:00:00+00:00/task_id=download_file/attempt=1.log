@@ -1,0 +1,84 @@
+[2023-02-08T15:25:36.131+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: cms_asp_noc.download_file scheduled__2022-12-30T00:00:00+00:00 [queued]>
+[2023-02-08T15:25:36.144+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: cms_asp_noc.download_file scheduled__2022-12-30T00:00:00+00:00 [queued]>
+[2023-02-08T15:25:36.145+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-08T15:25:36.146+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-02-08T15:25:36.147+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-08T15:25:36.183+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): download_file> on 2022-12-30 00:00:00+00:00
+[2023-02-08T15:25:36.199+0000] {standard_task_runner.py:55} INFO - Started process 4473 to run task
+[2023-02-08T15:25:36.245+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'cms_asp_noc', 'download_file', 'scheduled__2022-12-30T00:00:00+00:00', '--job-id', '1385', '--raw', '--subdir', 'DAGS_FOLDER/cms_upd.py', '--cfg-path', '/tmp/tmpiooweb87']
+[2023-02-08T15:25:36.256+0000] {standard_task_runner.py:83} INFO - Job 1385: Subtask download_file
+[2023-02-08T15:25:36.386+0000] {task_command.py:388} INFO - Running <TaskInstance: cms_asp_noc.download_file scheduled__2022-12-30T00:00:00+00:00 [running]> on host 1f90076947be
+[2023-02-08T15:25:36.959+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=cms_asp_noc
+AIRFLOW_CTX_TASK_ID=download_file
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-30T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-12-30T00:00:00+00:00
+[2023-02-08T15:25:40.499+0000] {logging_mixin.py:137} INFO - july-2022-asp-pricing-file-updated-12142022.zip is downloaded.
+[2023-02-08T15:25:40.701+0000] {logging_mixin.py:137} INFO - january-2023-noc-pricing-file.zip is downloaded.
+[2023-02-08T15:25:41.075+0000] {logging_mixin.py:137} INFO - january-2022-asp-ndc-hcpcs-crosswalk.zip is downloaded.
+[2023-02-08T15:25:41.316+0000] {logging_mixin.py:137} INFO - january-2022-asp-pricing-file-updated-06082022.zip is downloaded.
+[2023-02-08T15:25:42.524+0000] {logging_mixin.py:137} INFO - october-2022-asp-ndc-hcpcs-crosswalks-updated-12212022.zip is downloaded.
+[2023-02-08T15:25:52.587+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/local/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0xffff95993790>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/adapters.py", line 499, in send
+    timeout=timeout,
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 788, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.cms.gov', port=443): Max retries exceeded with url: //files/zip/july-2022-noc-pricing-file.zip (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff95993790>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/cms_pg/download_new_files.py", line 49, in download_zip_files
+    response = requests.get(url)
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.cms.gov', port=443): Max retries exceeded with url: //files/zip/july-2022-noc-pricing-file.zip (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff95993790>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2023-02-08T15:25:52.688+0000] {taskinstance.py:1323} INFO - Marking task as FAILED. dag_id=cms_asp_noc, task_id=download_file, execution_date=20221230T000000, start_date=20230208T152536, end_date=20230208T152552
+[2023-02-08T15:25:52.743+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 1385 for task download_file (HTTPSConnectionPool(host='www.cms.gov', port=443): Max retries exceeded with url: //files/zip/july-2022-noc-pricing-file.zip (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff95993790>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')); 4473)
+[2023-02-08T15:25:53.123+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-02-08T15:25:53.841+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

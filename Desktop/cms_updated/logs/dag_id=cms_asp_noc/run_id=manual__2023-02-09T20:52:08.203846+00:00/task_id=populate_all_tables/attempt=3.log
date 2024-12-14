@@ -1,0 +1,46 @@
+[2023-02-09T22:10:31.421+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: cms_asp_noc.populate_all_tables manual__2023-02-09T20:52:08.203846+00:00 [queued]>
+[2023-02-09T22:10:31.430+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: cms_asp_noc.populate_all_tables manual__2023-02-09T20:52:08.203846+00:00 [queued]>
+[2023-02-09T22:10:31.431+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-09T22:10:31.431+0000] {taskinstance.py:1280} INFO - Starting attempt 3 of 3
+[2023-02-09T22:10:31.432+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-09T22:10:31.442+0000] {taskinstance.py:1300} INFO - Executing <Task(PostgresOperator): populate_all_tables> on 2023-02-09 20:52:08.203846+00:00
+[2023-02-09T22:10:31.449+0000] {standard_task_runner.py:55} INFO - Started process 3699 to run task
+[2023-02-09T22:10:31.453+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'cms_asp_noc', 'populate_all_tables', 'manual__2023-02-09T20:52:08.203846+00:00', '--job-id', '1610', '--raw', '--subdir', 'DAGS_FOLDER/cms_upd.py', '--cfg-path', '/tmp/tmpmw3fe6x7']
+[2023-02-09T22:10:31.456+0000] {standard_task_runner.py:83} INFO - Job 1610: Subtask populate_all_tables
+[2023-02-09T22:10:31.531+0000] {task_command.py:388} INFO - Running <TaskInstance: cms_asp_noc.populate_all_tables manual__2023-02-09T20:52:08.203846+00:00 [running]> on host 2886274f27ea
+[2023-02-09T22:10:31.597+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=cms_asp_noc
+AIRFLOW_CTX_TASK_ID=populate_all_tables
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-09T20:52:08.203846+00:00
+AIRFLOW_CTX_TRY_NUMBER=3
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-09T20:52:08.203846+00:00
+[2023-02-09T22:10:31.600+0000] {sql.py:254} INFO - Executing: ['call sp_upsert_asp_pricing();\ncall sp_upsert_asp_ndc_hcpcs();\ncall sp_upsert_noc_NDC_HCPCS();']
+[2023-02-09T22:10:31.614+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-02-09T22:10:32.311+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-02-09T22:10:32.330+0000] {sql.py:375} INFO - Running statement: call sp_upsert_asp_pricing();
+call sp_upsert_asp_ndc_hcpcs();
+call sp_upsert_noc_NDC_HCPCS();, parameters: None
+[2023-02-09T22:10:32.334+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/operators/sql.py", line 266, in execute
+    **extra_kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/hooks/sql.py", line 349, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/hooks/sql.py", line 380, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.UndefinedFunction: procedure sp_upsert_asp_pricing() does not exist
+LINE 1: call sp_upsert_asp_pricing();
+             ^
+HINT:  No procedure matches the given name and argument types. You might need to add explicit type casts.
+
+[2023-02-09T22:10:32.346+0000] {taskinstance.py:1323} INFO - Marking task as FAILED. dag_id=cms_asp_noc, task_id=populate_all_tables, execution_date=20230209T205208, start_date=20230209T221031, end_date=20230209T221032
+[2023-02-09T22:10:32.359+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 1610 for task populate_all_tables (procedure sp_upsert_asp_pricing() does not exist
+LINE 1: call sp_upsert_asp_pricing();
+             ^
+HINT:  No procedure matches the given name and argument types. You might need to add explicit type casts.
+; 3699)
+[2023-02-09T22:10:32.401+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-02-09T22:10:32.423+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

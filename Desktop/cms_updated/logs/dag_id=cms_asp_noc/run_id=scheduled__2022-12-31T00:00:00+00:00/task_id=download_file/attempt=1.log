@@ -1,0 +1,79 @@
+[2023-02-08T15:25:43.935+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: cms_asp_noc.download_file scheduled__2022-12-31T00:00:00+00:00 [queued]>
+[2023-02-08T15:25:43.967+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: cms_asp_noc.download_file scheduled__2022-12-31T00:00:00+00:00 [queued]>
+[2023-02-08T15:25:43.978+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-08T15:25:43.984+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-02-08T15:25:43.985+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-08T15:25:44.020+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): download_file> on 2022-12-31 00:00:00+00:00
+[2023-02-08T15:25:44.036+0000] {standard_task_runner.py:55} INFO - Started process 4485 to run task
+[2023-02-08T15:25:44.058+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'cms_asp_noc', 'download_file', 'scheduled__2022-12-31T00:00:00+00:00', '--job-id', '1389', '--raw', '--subdir', 'DAGS_FOLDER/cms_upd.py', '--cfg-path', '/tmp/tmpyb2fwj6w']
+[2023-02-08T15:25:44.066+0000] {standard_task_runner.py:83} INFO - Job 1389: Subtask download_file
+[2023-02-08T15:25:44.193+0000] {task_command.py:388} INFO - Running <TaskInstance: cms_asp_noc.download_file scheduled__2022-12-31T00:00:00+00:00 [running]> on host 1f90076947be
+[2023-02-08T15:25:45.074+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=cms_asp_noc
+AIRFLOW_CTX_TASK_ID=download_file
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-31T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-12-31T00:00:00+00:00
+[2023-02-08T15:25:51.639+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/local/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0xffff9b61d150>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/adapters.py", line 499, in send
+    timeout=timeout,
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 788, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.cms.gov', port=443): Max retries exceeded with url: /medicare/medicare-part-b-drug-average-sales-price/2022-asp-drug-pricing-files (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff9b61d150>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/cms_pg/download_new_files.py", line 29, in download_zip_files
+    reqs = requests.get(web_urls.format(year))
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.cms.gov', port=443): Max retries exceeded with url: /medicare/medicare-part-b-drug-average-sales-price/2022-asp-drug-pricing-files (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff9b61d150>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+[2023-02-08T15:25:51.735+0000] {taskinstance.py:1323} INFO - Marking task as FAILED. dag_id=cms_asp_noc, task_id=download_file, execution_date=20221231T000000, start_date=20230208T152543, end_date=20230208T152551
+[2023-02-08T15:25:51.804+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 1389 for task download_file (HTTPSConnectionPool(host='www.cms.gov', port=443): Max retries exceeded with url: /medicare/medicare-part-b-drug-average-sales-price/2022-asp-drug-pricing-files (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff9b61d150>: Failed to establish a new connection: [Errno -2] Name or service not known')); 4485)
+[2023-02-08T15:25:52.208+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-02-08T15:25:52.874+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

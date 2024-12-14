@@ -1,0 +1,38 @@
+[2023-02-10T12:19:23.116+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: cms_asp_noc.load_test scheduled__2022-05-09T00:00:00+00:00 [queued]>
+[2023-02-10T12:19:23.399+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: cms_asp_noc.load_test scheduled__2022-05-09T00:00:00+00:00 [queued]>
+[2023-02-10T12:19:23.408+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-10T12:19:23.461+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-02-10T12:19:23.542+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-10T12:19:24.111+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): load_test> on 2022-05-09 00:00:00+00:00
+[2023-02-10T12:19:24.572+0000] {standard_task_runner.py:55} INFO - Started process 32438 to run task
+[2023-02-10T12:19:24.617+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'cms_asp_noc', 'load_test', 'scheduled__2022-05-09T00:00:00+00:00', '--job-id', '1642', '--raw', '--subdir', 'DAGS_FOLDER/cms_upd.py', '--cfg-path', '/tmp/tmpha47usow']
+[2023-02-10T12:19:24.638+0000] {standard_task_runner.py:83} INFO - Job 1642: Subtask load_test
+[2023-02-10T12:19:25.082+0000] {task_command.py:388} INFO - Running <TaskInstance: cms_asp_noc.load_test scheduled__2022-05-09T00:00:00+00:00 [running]> on host 2886274f27ea
+[2023-02-10T12:19:25.514+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=cms_asp_noc
+AIRFLOW_CTX_TASK_ID=load_test
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-09T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-05-09T00:00:00+00:00
+[2023-02-10T12:19:25.616+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/cms_pg/load_test.py", line 19, in load_test
+    cur.execute("select * from student")
+psycopg2.errors.UndefinedTable: relation "student" does not exist
+LINE 1: select * from student
+                      ^
+
+[2023-02-10T12:19:25.730+0000] {taskinstance.py:1323} INFO - Marking task as FAILED. dag_id=cms_asp_noc, task_id=load_test, execution_date=20220509T000000, start_date=20230210T121923, end_date=20230210T121925
+[2023-02-10T12:19:25.814+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 1642 for task load_test (relation "student" does not exist
+LINE 1: select * from student
+                      ^
+; 32438)
+[2023-02-10T12:19:26.043+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-02-10T12:19:26.180+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

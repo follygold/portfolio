@@ -1,0 +1,38 @@
+[2023-02-08T15:07:13.348+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: cms_asp_noc.download_file scheduled__2022-06-11T00:00:00+00:00 [queued]>
+[2023-02-08T15:07:13.366+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: cms_asp_noc.download_file scheduled__2022-06-11T00:00:00+00:00 [queued]>
+[2023-02-08T15:07:13.374+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-08T15:07:13.377+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-02-08T15:07:13.378+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-08T15:07:13.407+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): download_file> on 2022-06-11 00:00:00+00:00
+[2023-02-08T15:07:13.420+0000] {standard_task_runner.py:55} INFO - Started process 533 to run task
+[2023-02-08T15:07:13.460+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'cms_asp_noc', 'download_file', 'scheduled__2022-06-11T00:00:00+00:00', '--job-id', '386', '--raw', '--subdir', 'DAGS_FOLDER/cms_upd.py', '--cfg-path', '/tmp/tmp5hs3_hrk']
+[2023-02-08T15:07:13.465+0000] {standard_task_runner.py:83} INFO - Job 386: Subtask download_file
+[2023-02-08T15:07:13.981+0000] {task_command.py:388} INFO - Running <TaskInstance: cms_asp_noc.download_file scheduled__2022-06-11T00:00:00+00:00 [running]> on host 1f90076947be
+[2023-02-08T15:07:16.880+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=cms_asp_noc
+AIRFLOW_CTX_TASK_ID=download_file
+AIRFLOW_CTX_EXECUTION_DATE=2022-06-11T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-06-11T00:00:00+00:00
+[2023-02-08T15:07:20.577+0000] {logging_mixin.py:137} INFO - july-2022-asp-pricing-file-updated-12142022.zip is downloaded.
+[2023-02-08T15:07:20.801+0000] {logging_mixin.py:137} INFO - january-2023-noc-pricing-file.zip is downloaded.
+[2023-02-08T15:07:21.514+0000] {logging_mixin.py:137} INFO - january-2022-asp-ndc-hcpcs-crosswalk.zip is downloaded.
+[2023-02-08T15:07:21.764+0000] {logging_mixin.py:137} INFO - january-2022-asp-pricing-file-updated-06082022.zip is downloaded.
+[2023-02-08T15:07:22.334+0000] {logging_mixin.py:137} INFO - october-2022-asp-ndc-hcpcs-crosswalks-updated-12212022.zip is downloaded.
+[2023-02-08T15:07:22.493+0000] {logging_mixin.py:137} INFO - july-2022-noc-pricing-file.zip is downloaded.
+[2023-02-08T15:07:22.675+0000] {logging_mixin.py:137} INFO - april-2022-noc-pricing-file.zip is downloaded.
+[2023-02-08T15:07:23.096+0000] {logging_mixin.py:137} INFO - july-2022-asp-ndc-hcpcs-crosswalk-updated-07142022.zip is downloaded.
+[2023-02-08T15:07:23.265+0000] {logging_mixin.py:137} INFO - october-2022-noc-pricing-file.zip is downloaded.
+[2023-02-08T15:07:23.680+0000] {logging_mixin.py:137} INFO - april-2022-asp-ndc-hcpcs-crosswalk.zip is downloaded.
+[2023-02-08T15:07:23.925+0000] {logging_mixin.py:137} INFO - 2023.zip is downloaded.
+[2023-02-08T15:07:24.140+0000] {logging_mixin.py:137} INFO - january-2022-noc-pricing-file-updated-03022022.zip is downloaded.
+[2023-02-08T15:07:24.343+0000] {logging_mixin.py:137} INFO - october-2022-asp-pricing-file-updated-12212022.zip is downloaded.
+[2023-02-08T15:07:24.557+0000] {logging_mixin.py:137} INFO - april-2022-asp-pricing-file-updated-12142022.zip is downloaded.
+[2023-02-08T15:07:24.867+0000] {logging_mixin.py:137} INFO - 2023.zip is downloaded.
+[2023-02-08T15:07:24.869+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-02-08T15:07:24.963+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=cms_asp_noc, task_id=download_file, execution_date=20220611T000000, start_date=20230208T150713, end_date=20230208T150724
+[2023-02-08T15:07:25.321+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-02-08T15:07:26.438+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

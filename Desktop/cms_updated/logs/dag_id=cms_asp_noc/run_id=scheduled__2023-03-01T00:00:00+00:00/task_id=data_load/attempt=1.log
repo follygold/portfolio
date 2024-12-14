@@ -1,0 +1,214 @@
+[2023-03-02T00:13:06.787+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: cms_asp_noc.data_load scheduled__2023-03-01T00:00:00+00:00 [queued]>
+[2023-03-02T00:13:06.793+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: cms_asp_noc.data_load scheduled__2023-03-01T00:00:00+00:00 [queued]>
+[2023-03-02T00:13:06.794+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-02T00:13:06.794+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-03-02T00:13:06.795+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-02T00:13:06.803+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): data_load> on 2023-03-01 00:00:00+00:00
+[2023-03-02T00:13:06.809+0000] {standard_task_runner.py:55} INFO - Started process 46258 to run task
+[2023-03-02T00:13:06.813+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'cms_asp_noc', 'data_load', 'scheduled__2023-03-01T00:00:00+00:00', '--job-id', '1905', '--raw', '--subdir', 'DAGS_FOLDER/cms_upd.py', '--cfg-path', '/tmp/tmp2872w652']
+[2023-03-02T00:13:06.815+0000] {standard_task_runner.py:83} INFO - Job 1905: Subtask data_load
+[2023-03-02T00:13:06.993+0000] {task_command.py:388} INFO - Running <TaskInstance: cms_asp_noc.data_load scheduled__2023-03-01T00:00:00+00:00 [running]> on host 2886274f27ea
+[2023-03-02T00:13:07.042+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=cms_asp_noc
+AIRFLOW_CTX_TASK_ID=data_load
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-01T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-03-01T00:00:00+00:00
+[2023-03-02T00:13:07.049+0000] {logging_mixin.py:137} INFO - ['section 508 version of April 2022 ASP Pricing File updated 060222.csv', 'section 508 version of April 2022 ASP Pricing File updated 120222.csv', 'section 508 version of COVID_19_NDC_HCPCS_Crosswalk.csv', 'section 508 version of January 2022 ASP Pricing File updated 060222.csv', 'section 508 version of July 2022 ASP NDC-HCPCS Crosswalk 060722.csv', 'section 508 version of July 2022 ASP Pricing File updated 120222.csv', 'section 508 version of July 2022 AWP NDC-HCPCS Crosswalk_060722.csv', 'section 508 version of July 2022 NOC NDC-HCPCS Crosswalk 060722.csv', 'section 508 version of July 2022 NOC Pricing File 060722.csv', 'section 508 version of July 2022 OPPS NDC-HCPCS Crosswalk 060722.csv', 'section 508 version of NDC-HCPCS Crosswalk Introduction Text 060722.csv']
+[2023-03-02T00:13:07.049+0000] {logging_mixin.py:137} INFO - /opt/***/op_files/cms_zip_files/section 508 version of April 2022 ASP Pricing File updated 060222.csv
+[2023-03-02T00:13:07.060+0000] {logging_mixin.py:137} INFO - success
+[2023-03-02T00:13:07.061+0000] {logging_mixin.py:137} INFO - section 508 version of April 2022 ASP Pricing File updated 060222.csv
+[2023-03-02T00:13:07.062+0000] {logging_mixin.py:137} INFO - excel file has been cleaned
+[2023-03-02T00:13:07.088+0000] {logging_mixin.py:137} INFO -     Date_Uploaded HCPCS_Code  ...    modification_time quarter
+0      2023-03-02      90371  ...  2022-06-02 10:10:10       2
+1      2023-03-02      90375  ...  2022-06-02 10:10:10       2
+2      2023-03-02      90376  ...  2022-06-02 10:10:10       2
+3      2023-03-02      90377  ...  2022-06-02 10:10:10       2
+4      2023-03-02      90586  ...  2022-06-02 10:10:10       2
+..            ...        ...  ...                  ...     ...
+641    2023-03-02      Q9965  ...  2022-06-02 10:10:10       2
+642    2023-03-02      Q9966  ...  2022-06-02 10:10:10       2
+643    2023-03-02      Q9967  ...  2022-06-02 10:10:10       2
+644    2023-03-02      Q9991  ...  2022-06-02 10:10:10       2
+645    2023-03-02      Q9992  ...  2022-06-02 10:10:10       2
+
+[646 rows x 14 columns]
+[2023-03-02T00:13:07.182+0000] {logging_mixin.py:137} INFO - deleted:  section 508 version of April 2022 ASP Pricing File updated 060222.csv
+[2023-03-02T00:13:07.183+0000] {logging_mixin.py:137} INFO - /opt/***/op_files/cms_zip_files/section 508 version of April 2022 ASP Pricing File updated 120222.csv
+[2023-03-02T00:13:07.187+0000] {logging_mixin.py:137} INFO - success
+[2023-03-02T00:13:07.188+0000] {logging_mixin.py:137} INFO - section 508 version of April 2022 ASP Pricing File updated 120222.csv
+[2023-03-02T00:13:07.188+0000] {logging_mixin.py:137} INFO - excel file has been cleaned
+[2023-03-02T00:13:07.197+0000] {logging_mixin.py:137} INFO -     Date_Uploaded HCPCS_Code  ...    modification_time quarter
+0      2023-03-02      90371  ...  2022-12-02 10:10:10       2
+1      2023-03-02      90375  ...  2022-12-02 10:10:10       2
+2      2023-03-02      90376  ...  2022-12-02 10:10:10       2
+3      2023-03-02      90377  ...  2022-12-02 10:10:10       2
+4      2023-03-02      90586  ...  2022-12-02 10:10:10       2
+..            ...        ...  ...                  ...     ...
+641    2023-03-02      Q9965  ...  2022-12-02 10:10:10       2
+642    2023-03-02      Q9966  ...  2022-12-02 10:10:10       2
+643    2023-03-02      Q9967  ...  2022-12-02 10:10:10       2
+644    2023-03-02      Q9991  ...  2022-12-02 10:10:10       2
+645    2023-03-02      Q9992  ...  2022-12-02 10:10:10       2
+
+[646 rows x 14 columns]
+[2023-03-02T00:13:07.284+0000] {logging_mixin.py:137} INFO - deleted:  section 508 version of April 2022 ASP Pricing File updated 120222.csv
+[2023-03-02T00:13:07.286+0000] {logging_mixin.py:137} INFO - /opt/***/op_files/cms_zip_files/section 508 version of COVID_19_NDC_HCPCS_Crosswalk.csv
+[2023-03-02T00:13:07.287+0000] {logging_mixin.py:137} INFO - /opt/***/op_files/cms_zip_files/section 508 version of January 2022 ASP Pricing File updated 060222.csv
+[2023-03-02T00:13:07.294+0000] {logging_mixin.py:137} INFO - success
+[2023-03-02T00:13:07.295+0000] {logging_mixin.py:137} INFO - section 508 version of January 2022 ASP Pricing File updated 060222.csv
+[2023-03-02T00:13:07.295+0000] {logging_mixin.py:137} INFO - excel file has been cleaned
+[2023-03-02T00:13:07.308+0000] {logging_mixin.py:137} INFO -     Date_Uploaded HCPCS_Code  ...    modification_time quarter
+0      2023-03-02      90371  ...  2022-06-02 10:10:10       1
+1      2023-03-02      90375  ...  2022-06-02 10:10:10       1
+2      2023-03-02      90376  ...  2022-06-02 10:10:10       1
+3      2023-03-02      90377  ...  2022-06-02 10:10:10       1
+4      2023-03-02      90586  ...  2022-06-02 10:10:10       1
+..            ...        ...  ...                  ...     ...
+638    2023-03-02      Q9965  ...  2022-06-02 10:10:10       1
+639    2023-03-02      Q9966  ...  2022-06-02 10:10:10       1
+640    2023-03-02      Q9967  ...  2022-06-02 10:10:10       1
+641    2023-03-02      Q9991  ...  2022-06-02 10:10:10       1
+642    2023-03-02      Q9992  ...  2022-06-02 10:10:10       1
+
+[643 rows x 14 columns]
+[2023-03-02T00:13:07.390+0000] {logging_mixin.py:137} INFO - deleted:  section 508 version of January 2022 ASP Pricing File updated 060222.csv
+[2023-03-02T00:13:07.392+0000] {logging_mixin.py:137} INFO - /opt/***/op_files/cms_zip_files/section 508 version of July 2022 ASP NDC-HCPCS Crosswalk 060722.csv
+[2023-03-02T00:13:07.403+0000] {logging_mixin.py:137} INFO - success
+[2023-03-02T00:13:07.404+0000] {logging_mixin.py:137} INFO - section 508 version of July 2022 ASP NDC-HCPCS Crosswalk 060722.csv
+[2023-03-02T00:13:07.404+0000] {logging_mixin.py:137} INFO - excel file has been cleaned
+[2023-03-02T00:13:07.412+0000] {logging_mixin.py:137} INFO -      Date_Uploaded   Code  ...    modification_time quarter
+0       2023-03-02  90371  ...  2022-06-07 10:10:10       3
+1       2023-03-02  90371  ...  2022-06-07 10:10:10       3
+2       2023-03-02  90371  ...  2022-06-07 10:10:10       3
+3       2023-03-02  90371  ...  2022-06-07 10:10:10       3
+4       2023-03-02  90371  ...  2022-06-07 10:10:10       3
+...            ...    ...  ...                  ...     ...
+5378    2023-03-02  Q9967  ...  2022-06-07 10:10:10       3
+5379    2023-03-02  Q9991  ...  2022-06-07 10:10:10       3
+5380    2023-03-02  Q9991  ...  2022-06-07 10:10:10       3
+5381    2023-03-02  Q9992  ...  2022-06-07 10:10:10       3
+5382    2023-03-02  Q9992  ...  2022-06-07 10:10:10       3
+
+[5383 rows x 14 columns]
+[2023-03-02T00:13:07.662+0000] {logging_mixin.py:137} INFO - deleted:  section 508 version of July 2022 ASP NDC-HCPCS Crosswalk 060722.csv
+[2023-03-02T00:13:07.664+0000] {logging_mixin.py:137} INFO - /opt/***/op_files/cms_zip_files/section 508 version of July 2022 ASP Pricing File updated 120222.csv
+[2023-03-02T00:13:07.668+0000] {logging_mixin.py:137} INFO - success
+[2023-03-02T00:13:07.668+0000] {logging_mixin.py:137} INFO - section 508 version of July 2022 ASP Pricing File updated 120222.csv
+[2023-03-02T00:13:07.668+0000] {logging_mixin.py:137} INFO - excel file has been cleaned
+[2023-03-02T00:13:07.676+0000] {logging_mixin.py:137} INFO -     Date_Uploaded HCPCS_Code  ...    modification_time quarter
+0      2023-03-02      90371  ...  2022-12-02 10:10:10       3
+1      2023-03-02      90375  ...  2022-12-02 10:10:10       3
+2      2023-03-02      90376  ...  2022-12-02 10:10:10       3
+3      2023-03-02      90377  ...  2022-12-02 10:10:10       3
+4      2023-03-02      90586  ...  2022-12-02 10:10:10       3
+..            ...        ...  ...                  ...     ...
+653    2023-03-02      Q9965  ...  2022-12-02 10:10:10       3
+654    2023-03-02      Q9966  ...  2022-12-02 10:10:10       3
+655    2023-03-02      Q9967  ...  2022-12-02 10:10:10       3
+656    2023-03-02      Q9991  ...  2022-12-02 10:10:10       3
+657    2023-03-02      Q9992  ...  2022-12-02 10:10:10       3
+
+[658 rows x 14 columns]
+[2023-03-02T00:13:07.777+0000] {logging_mixin.py:137} INFO - deleted:  section 508 version of July 2022 ASP Pricing File updated 120222.csv
+[2023-03-02T00:13:07.778+0000] {logging_mixin.py:137} INFO - /opt/***/op_files/cms_zip_files/section 508 version of July 2022 AWP NDC-HCPCS Crosswalk_060722.csv
+[2023-03-02T00:13:07.781+0000] {logging_mixin.py:137} INFO - success
+[2023-03-02T00:13:07.782+0000] {logging_mixin.py:137} INFO - section 508 version of July 2022 AWP NDC-HCPCS Crosswalk_060722.csv
+[2023-03-02T00:13:07.782+0000] {logging_mixin.py:137} INFO - excel file has been cleaned
+[2023-03-02T00:13:07.790+0000] {logging_mixin.py:137} INFO -     Date_Uploaded HCPCS_Code  ...    modification_time quarter
+0      2023-03-02      90653  ...  2022-06-07 10:10:10       3
+1      2023-03-02      90653  ...  2022-06-07 10:10:10       3
+2      2023-03-02      90662  ...  2022-06-07 10:10:10       3
+3      2023-03-02      90662  ...  2022-06-07 10:10:10       3
+4      2023-03-02      90662  ...  2022-06-07 10:10:10       3
+..            ...        ...  ...                  ...     ...
+187    2023-03-02      P9047  ...  2022-06-07 10:10:10       3
+188    2023-03-02      P9047  ...  2022-06-07 10:10:10       3
+189    2023-03-02      P9047  ...  2022-06-07 10:10:10       3
+190    2023-03-02      P9047  ...  2022-06-07 10:10:10       3
+191    2023-03-02      P9047  ...  2022-06-07 10:10:10       3
+
+[192 rows x 14 columns]
+[2023-03-02T00:13:07.859+0000] {logging_mixin.py:137} INFO - deleted:  section 508 version of July 2022 AWP NDC-HCPCS Crosswalk_060722.csv
+[2023-03-02T00:13:07.860+0000] {logging_mixin.py:137} INFO - /opt/***/op_files/cms_zip_files/section 508 version of July 2022 NOC NDC-HCPCS Crosswalk 060722.csv
+[2023-03-02T00:13:07.863+0000] {logging_mixin.py:137} INFO - success
+[2023-03-02T00:13:07.864+0000] {logging_mixin.py:137} INFO - section 508 version of July 2022 NOC NDC-HCPCS Crosswalk 060722.csv
+[2023-03-02T00:13:07.864+0000] {logging_mixin.py:137} INFO - excel file has been cleaned
+[2023-03-02T00:13:07.875+0000] {logging_mixin.py:137} INFO -     Date_Uploaded   Drug Generic Name  ...    modification_time quarter
+0      2023-03-02      Alfentanil Hcl  ...  2022-06-07 10:10:10       3
+1      2023-03-02      Alfentanil Hcl  ...  2022-06-07 10:10:10       3
+2      2023-03-02  Allopurinol Sodium  ...  2022-06-07 10:10:10       3
+3      2023-03-02  Allopurinol Sodium  ...  2022-06-07 10:10:10       3
+4      2023-03-02  Allopurinol Sodium  ...  2022-06-07 10:10:10       3
+..            ...                 ...  ...                  ...     ...
+308    2023-03-02         Vasopressin  ...  2022-06-07 10:10:10       3
+309    2023-03-02         Vasopressin  ...  2022-06-07 10:10:10       3
+310    2023-03-02         Vasopressin  ...  2022-06-07 10:10:10       3
+311    2023-03-02         Vasopressin  ...  2022-06-07 10:10:10       3
+312    2023-03-02         Vasopressin  ...  2022-06-07 10:10:10       3
+
+[313 rows x 13 columns]
+[2023-03-02T00:13:07.948+0000] {logging_mixin.py:137} INFO - deleted:  section 508 version of July 2022 NOC NDC-HCPCS Crosswalk 060722.csv
+[2023-03-02T00:13:07.949+0000] {logging_mixin.py:137} INFO - /opt/***/op_files/cms_zip_files/section 508 version of July 2022 NOC Pricing File 060722.csv
+[2023-03-02T00:13:07.952+0000] {logging_mixin.py:137} INFO - success
+[2023-03-02T00:13:07.953+0000] {logging_mixin.py:137} INFO - section 508 version of July 2022 NOC Pricing File 060722.csv
+[2023-03-02T00:13:07.953+0000] {logging_mixin.py:137} INFO - excel file has been cleaned
+[2023-03-02T00:13:07.960+0000] {logging_mixin.py:137} INFO -    Date_Uploaded  ... quarter
+0     2023-03-02  ...       3
+1     2023-03-02  ...       3
+2     2023-03-02  ...       3
+3     2023-03-02  ...       3
+4     2023-03-02  ...       3
+5     2023-03-02  ...       3
+6     2023-03-02  ...       3
+7     2023-03-02  ...       3
+8     2023-03-02  ...       3
+9     2023-03-02  ...       3
+10    2023-03-02  ...       3
+11    2023-03-02  ...       3
+12    2023-03-02  ...       3
+13    2023-03-02  ...       3
+14    2023-03-02  ...       3
+15    2023-03-02  ...       3
+16    2023-03-02  ...       3
+17    2023-03-02  ...       3
+18    2023-03-02  ...       3
+19    2023-03-02  ...       3
+20    2023-03-02  ...       3
+21    2023-03-02  ...       3
+22    2023-03-02  ...       3
+23    2023-03-02  ...       3
+24    2023-03-02  ...       3
+25    2023-03-02  ...       3
+26    2023-03-02  ...       3
+27    2023-03-02  ...       3
+
+[28 rows x 9 columns]
+[2023-03-02T00:13:08.028+0000] {logging_mixin.py:137} INFO - deleted:  section 508 version of July 2022 NOC Pricing File 060722.csv
+[2023-03-02T00:13:08.030+0000] {logging_mixin.py:137} INFO - /opt/***/op_files/cms_zip_files/section 508 version of July 2022 OPPS NDC-HCPCS Crosswalk 060722.csv
+[2023-03-02T00:13:08.033+0000] {logging_mixin.py:137} INFO - success
+[2023-03-02T00:13:08.033+0000] {logging_mixin.py:137} INFO - section 508 version of July 2022 OPPS NDC-HCPCS Crosswalk 060722.csv
+[2023-03-02T00:13:08.034+0000] {logging_mixin.py:137} INFO - excel file has been cleaned
+[2023-03-02T00:13:08.044+0000] {logging_mixin.py:137} INFO -     Date_Uploaded   Code  ...    modification_time quarter
+0      2023-03-02  A9513  ...  2022-06-07 10:10:10       3
+1      2023-03-02  A9543  ...  2022-06-07 10:10:10       3
+2      2023-03-02  A9543  ...  2022-06-07 10:10:10       3
+3      2023-03-02  A9590  ...  2022-06-07 10:10:10       3
+4      2023-03-02  A9590  ...  2022-06-07 10:10:10       3
+..            ...    ...  ...                  ...     ...
+232    2023-03-02  Q2055  ...  2022-06-07 10:10:10       3
+233    2023-03-02  Q9968  ...  2022-06-07 10:10:10       3
+234    2023-03-02  Q9968  ...  2022-06-07 10:10:10       3
+235    2023-03-02  Q9968  ...  2022-06-07 10:10:10       3
+236    2023-03-02  Q9968  ...  2022-06-07 10:10:10       3
+
+[237 rows x 14 columns]
+[2023-03-02T00:13:08.115+0000] {logging_mixin.py:137} INFO - deleted:  section 508 version of July 2022 OPPS NDC-HCPCS Crosswalk 060722.csv
+[2023-03-02T00:13:08.116+0000] {logging_mixin.py:137} INFO - /opt/***/op_files/cms_zip_files/section 508 version of NDC-HCPCS Crosswalk Introduction Text 060722.csv
+[2023-03-02T00:13:08.117+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-03-02T00:13:08.127+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=cms_asp_noc, task_id=data_load, execution_date=20230301T000000, start_date=20230302T001306, end_date=20230302T001308
+[2023-03-02T00:13:08.194+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-03-02T00:13:08.352+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

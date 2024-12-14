@@ -1,0 +1,24 @@
+[2023-02-08T15:54:35.264+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: cms_asp_noc.website_changed scheduled__2023-01-04T00:00:00+00:00 [queued]>
+[2023-02-08T15:54:35.278+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: cms_asp_noc.website_changed scheduled__2023-01-04T00:00:00+00:00 [queued]>
+[2023-02-08T15:54:35.279+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-08T15:54:35.280+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-02-08T15:54:35.282+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-08T15:54:35.306+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): website_changed> on 2023-01-04 00:00:00+00:00
+[2023-02-08T15:54:35.339+0000] {standard_task_runner.py:55} INFO - Started process 4631 to run task
+[2023-02-08T15:54:35.629+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'cms_asp_noc', 'website_changed', 'scheduled__2023-01-04T00:00:00+00:00', '--job-id', '1391', '--raw', '--subdir', 'DAGS_FOLDER/cms_upd.py', '--cfg-path', '/tmp/tmpjnx19ngf']
+[2023-02-08T15:54:35.899+0000] {standard_task_runner.py:83} INFO - Job 1391: Subtask website_changed
+[2023-02-08T15:54:36.600+0000] {task_command.py:388} INFO - Running <TaskInstance: cms_asp_noc.website_changed scheduled__2023-01-04T00:00:00+00:00 [running]> on host 1f90076947be
+[2023-02-08T15:54:37.871+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=cms_asp_noc
+AIRFLOW_CTX_TASK_ID=website_changed
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-04T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-01-04T00:00:00+00:00
+[2023-02-08T15:54:38.877+0000] {logging_mixin.py:137} INFO - Website is changed. Links: True
+[2023-02-08T15:54:38.887+0000] {python.py:177} INFO - Done. Returned value was: ['https://www.cms.gov/files/zip/january-2022-asp-ndc-hcpcs-crosswalk.zip', 'https://www.cms.gov/files/zip/october-2022-asp-pricing-file-updated-12212022.zip', 'https://www.cms.gov/files/zip/april-2022-asp-pricing-file-updated-12142022.zip', 'https://www.cms.gov/files/zip/january-2022-asp-pricing-file-updated-06082022.zip', 'https://www.cms.gov/files/zip/april-2022-asp-ndc-hcpcs-crosswalk.zip', 'https://www.cms.gov/files/zip/october-2022-asp-ndc-hcpcs-crosswalks-updated-12212022.zip', 'https://www.cms.gov/files/zip/october-2022-noc-pricing-file.zip', 'https://www.cms.gov/files/zip/april-2022-noc-pricing-file.zip', 'https://www.cms.gov/files/zip/july-2022-asp-ndc-hcpcs-crosswalk-updated-07142022.zip', 'https://www.cms.gov/files/zip/january-2022-noc-pricing-file-updated-03022022.zip', 'https://www.cms.gov/files/zip/july-2022-asp-pricing-file-updated-12142022.zip']
+[2023-02-08T15:54:39.043+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=cms_asp_noc, task_id=website_changed, execution_date=20230104T000000, start_date=20230208T155435, end_date=20230208T155439
+[2023-02-08T15:54:39.545+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-02-08T15:54:43.143+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

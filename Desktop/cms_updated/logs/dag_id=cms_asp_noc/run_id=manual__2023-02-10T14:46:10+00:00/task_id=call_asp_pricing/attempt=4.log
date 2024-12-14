@@ -1,0 +1,32 @@
+[2023-02-10T15:11:50.695+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: cms_asp_noc.call_asp_pricing manual__2023-02-10T14:46:10+00:00 [queued]>
+[2023-02-10T15:11:50.705+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: cms_asp_noc.call_asp_pricing manual__2023-02-10T14:46:10+00:00 [queued]>
+[2023-02-10T15:11:50.706+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-10T15:11:50.707+0000] {taskinstance.py:1280} INFO - Starting attempt 4 of 4
+[2023-02-10T15:11:50.707+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-10T15:11:50.720+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): call_asp_pricing> on 2023-02-10 14:46:10+00:00
+[2023-02-10T15:11:50.730+0000] {standard_task_runner.py:55} INFO - Started process 41950 to run task
+[2023-02-10T15:11:50.738+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'cms_asp_noc', 'call_asp_pricing', 'manual__2023-02-10T14:46:10+00:00', '--job-id', '1688', '--raw', '--subdir', 'DAGS_FOLDER/cms_upd.py', '--cfg-path', '/tmp/tmpybyt3xk2']
+[2023-02-10T15:11:50.744+0000] {standard_task_runner.py:83} INFO - Job 1688: Subtask call_asp_pricing
+[2023-02-10T15:11:50.865+0000] {task_command.py:388} INFO - Running <TaskInstance: cms_asp_noc.call_asp_pricing manual__2023-02-10T14:46:10+00:00 [running]> on host 2886274f27ea
+[2023-02-10T15:11:50.957+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=cms_asp_noc
+AIRFLOW_CTX_TASK_ID=call_asp_pricing
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-10T14:46:10+00:00
+AIRFLOW_CTX_TRY_NUMBER=4
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-10T14:46:10+00:00
+[2023-02-10T15:11:50.976+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/cms_pg/call_procedure.py", line 22, in call_procedure
+    rows=cur.fetchall()
+psycopg2.ProgrammingError: no results to fetch
+[2023-02-10T15:11:51.503+0000] {taskinstance.py:1323} INFO - Marking task as FAILED. dag_id=cms_asp_noc, task_id=call_asp_pricing, execution_date=20230210T144610, start_date=20230210T151150, end_date=20230210T151151
+[2023-02-10T15:11:51.514+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 1688 for task call_asp_pricing (no results to fetch; 41950)
+[2023-02-10T15:11:51.567+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-02-10T15:11:51.589+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

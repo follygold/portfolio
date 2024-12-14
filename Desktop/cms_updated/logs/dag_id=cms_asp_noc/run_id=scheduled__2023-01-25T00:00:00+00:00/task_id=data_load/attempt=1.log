@@ -1,0 +1,24 @@
+[2023-02-08T15:56:42.103+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: cms_asp_noc.data_load scheduled__2023-01-25T00:00:00+00:00 [queued]>
+[2023-02-08T15:56:42.123+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: cms_asp_noc.data_load scheduled__2023-01-25T00:00:00+00:00 [queued]>
+[2023-02-08T15:56:42.124+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-08T15:56:42.125+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-02-08T15:56:42.125+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-08T15:56:42.146+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): data_load> on 2023-01-25 00:00:00+00:00
+[2023-02-08T15:56:42.154+0000] {standard_task_runner.py:55} INFO - Started process 5089 to run task
+[2023-02-08T15:56:42.174+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'cms_asp_noc', 'data_load', 'scheduled__2023-01-25T00:00:00+00:00', '--job-id', '1507', '--raw', '--subdir', 'DAGS_FOLDER/cms_upd.py', '--cfg-path', '/tmp/tmpd6d3fkhg']
+[2023-02-08T15:56:42.193+0000] {standard_task_runner.py:83} INFO - Job 1507: Subtask data_load
+[2023-02-08T15:56:42.320+0000] {task_command.py:388} INFO - Running <TaskInstance: cms_asp_noc.data_load scheduled__2023-01-25T00:00:00+00:00 [running]> on host 1f90076947be
+[2023-02-08T15:56:43.274+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=cms_asp_noc
+AIRFLOW_CTX_TASK_ID=data_load
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-25T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-01-25T00:00:00+00:00
+[2023-02-08T15:56:43.279+0000] {logging_mixin.py:137} INFO - []
+[2023-02-08T15:56:43.279+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-02-08T15:56:43.301+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=cms_asp_noc, task_id=data_load, execution_date=20230125T000000, start_date=20230208T155642, end_date=20230208T155643
+[2023-02-08T15:56:43.398+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-02-08T15:56:43.628+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,171 @@
+[2023-02-07T17:54:27.724+0000] {processor.py:153} INFO - Started process (PID=68) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T17:54:27.725+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-02-07T17:54:27.726+0000] {logging_mixin.py:137} INFO - [2023-02-07T17:54:27.726+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T17:54:27.820+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T17:54:28.038+0000] {logging_mixin.py:137} INFO - [2023-02-07T17:54:28.037+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-02-07T17:54:28.473+0000] {logging_mixin.py:137} INFO - [2023-02-07T17:54:28.472+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-02-07T17:54:28.542+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.822 seconds
+[2023-02-07T17:55:00.908+0000] {processor.py:153} INFO - Started process (PID=128) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T17:55:00.910+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-02-07T17:55:00.913+0000] {logging_mixin.py:137} INFO - [2023-02-07T17:55:00.913+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T17:55:00.936+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T17:55:00.961+0000] {logging_mixin.py:137} INFO - [2023-02-07T17:55:00.961+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-02-07T17:55:00.985+0000] {logging_mixin.py:137} INFO - [2023-02-07T17:55:00.984+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-02-07T17:55:01.022+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.118 seconds
+[2023-02-07T18:04:21.239+0000] {processor.py:153} INFO - Started process (PID=303) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T18:04:22.208+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-02-07T18:04:24.192+0000] {logging_mixin.py:137} INFO - [2023-02-07T18:04:22.989+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T18:05:07.111+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T18:05:18.352+0000] {logging_mixin.py:137} INFO - [2023-02-07T18:05:18.256+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-02-07T18:20:56.805+0000] {processor.py:153} INFO - Started process (PID=524) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T18:20:56.818+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-02-07T18:20:56.824+0000] {logging_mixin.py:137} INFO - [2023-02-07T18:20:56.824+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T18:21:07.782+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T18:37:47.502+0000] {processor.py:153} INFO - Started process (PID=689) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T18:37:49.483+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-02-07T18:37:49.912+0000] {logging_mixin.py:137} INFO - [2023-02-07T18:37:49.911+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T18:52:49.440+0000] {processor.py:153} INFO - Started process (PID=859) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T18:52:51.719+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-02-07T18:52:51.752+0000] {logging_mixin.py:137} INFO - [2023-02-07T18:52:51.751+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T18:53:24.510+0000] {logging_mixin.py:137} INFO - [2023-02-07T18:53:24.449+0000] {timeout.py:68} ERROR - Process timed out, PID: 859
+[2023-02-07T18:53:27.401+0000] {logging_mixin.py:137} INFO - [2023-02-07T18:53:24.633+0000] {dagbag.py:343} ERROR - Failed to import: /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py", line 25, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 26, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 857, in get_code
+  File "<frozen importlib._bootstrap_external>", line 525, in _compile_bytecode
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.5.1/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.5.1/best-practices.html#reducing-dag-complexity, PID: 859
+[2023-02-07T18:53:27.582+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T19:09:13.302+0000] {processor.py:153} INFO - Started process (PID=1058) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T19:09:13.313+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-02-07T19:09:13.319+0000] {logging_mixin.py:137} INFO - [2023-02-07T19:09:13.319+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T19:09:29.510+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T19:09:51.797+0000] {logging_mixin.py:137} INFO - [2023-02-07T19:09:51.771+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-02-07T19:26:38.005+0000] {processor.py:153} INFO - Started process (PID=1273) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T19:26:38.878+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-02-07T19:26:38.972+0000] {logging_mixin.py:137} INFO - [2023-02-07T19:26:38.914+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T19:27:02.454+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T19:42:25.038+0000] {processor.py:153} INFO - Started process (PID=1527) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T19:42:25.930+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-02-07T19:42:25.940+0000] {logging_mixin.py:137} INFO - [2023-02-07T19:42:25.939+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T19:42:35.308+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T20:09:25.422+0000] {processor.py:153} INFO - Started process (PID=1616) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T20:09:31.829+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-02-07T20:09:40.336+0000] {logging_mixin.py:137} INFO - [2023-02-07T20:09:40.091+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T20:09:55.736+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T20:55:15.193+0000] {processor.py:153} INFO - Started process (PID=1975) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T20:55:15.206+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-02-07T20:55:18.838+0000] {logging_mixin.py:137} INFO - [2023-02-07T20:55:18.401+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T20:55:56.869+0000] {logging_mixin.py:137} INFO - [2023-02-07T20:55:56.818+0000] {timeout.py:68} ERROR - Process timed out, PID: 1975
+[2023-02-07T20:55:59.266+0000] {logging_mixin.py:137} INFO - [2023-02-07T20:55:56.886+0000] {dagbag.py:343} ERROR - Failed to import: /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py", line 24, in <module>
+    from airflow.decorators import task
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/__init__.py", line 23, in <module>
+    from airflow.decorators.external_python import external_python_task
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 963, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 906, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1280, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1252, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1364, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 81, in _path_stat
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.5.1/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.5.1/best-practices.html#reducing-dag-complexity, PID: 1975
+[2023-02-07T20:56:00.274+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T20:56:12.679+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 59.719 seconds
+[2023-02-07T21:14:27.941+0000] {processor.py:153} INFO - Started process (PID=2247) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T21:14:29.495+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-02-07T21:14:32.852+0000] {logging_mixin.py:137} INFO - [2023-02-07T21:14:31.323+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T21:15:13.502+0000] {logging_mixin.py:137} INFO - [2023-02-07T21:15:13.429+0000] {timeout.py:68} ERROR - Process timed out, PID: 2247
+[2023-02-07T21:15:13.697+0000] {logging_mixin.py:137} INFO - [2023-02-07T21:15:13.596+0000] {dagbag.py:343} ERROR - Failed to import: /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+Traceback (most recent call last):
+  File "<frozen importlib._bootstrap_external>", line 1219, in _path_importer_cache
+KeyError: '/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py", line 25, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 26, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 963, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 906, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1280, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1249, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1221, in _path_importer_cache
+  File "<frozen importlib._bootstrap_external>", line 1197, in _path_hooks
+  File "<frozen importlib._bootstrap_external>", line 1447, in path_hook_for_FileFinder
+  File "<frozen importlib._bootstrap_external>", line 102, in _path_isdir
+  File "<frozen importlib._bootstrap_external>", line 87, in _path_is_mode_type
+  File "<frozen importlib._bootstrap_external>", line 81, in _path_stat
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.5.1/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.5.1/best-practices.html#reducing-dag-complexity, PID: 2247
+[2023-02-07T21:15:13.744+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T21:40:39.220+0000] {processor.py:153} INFO - Started process (PID=2597) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T21:40:39.531+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-02-07T21:40:39.561+0000] {logging_mixin.py:137} INFO - [2023-02-07T21:40:39.560+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T21:40:51.033+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T21:58:27.762+0000] {processor.py:153} INFO - Started process (PID=2846) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T21:58:29.481+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-02-07T21:58:29.519+0000] {logging_mixin.py:137} INFO - [2023-02-07T21:58:29.518+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T21:59:02.662+0000] {logging_mixin.py:137} INFO - [2023-02-07T21:59:02.649+0000] {timeout.py:68} ERROR - Process timed out, PID: 2846
+[2023-02-07T21:59:04.701+0000] {logging_mixin.py:137} INFO - [2023-02-07T21:59:03.331+0000] {dagbag.py:343} ERROR - Failed to import: /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py", line 70, in <module>
+    tags=["example"],
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 54, in validate_key
+    if not KEY_REGEX.match(k):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.5.1/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.5.1/best-practices.html#reducing-dag-complexity, PID: 2846
+[2023-02-07T21:59:05.012+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T22:20:53.935+0000] {processor.py:153} INFO - Started process (PID=3085) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T22:20:54.024+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-02-07T22:20:54.043+0000] {logging_mixin.py:137} INFO - [2023-02-07T22:20:54.043+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T22:21:24.107+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T22:40:07.998+0000] {processor.py:153} INFO - Started process (PID=3383) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-07T22:40:08.507+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-02-07T22:40:10.465+0000] {logging_mixin.py:137} INFO - [2023-02-07T22:40:10.419+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py

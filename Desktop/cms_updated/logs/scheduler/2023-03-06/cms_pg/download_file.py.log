@@ -1,0 +1,364 @@
+[2023-03-06T16:01:58.724+0000] {processor.py:153} INFO - Started process (PID=76) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:01:58.760+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:01:58.819+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:01:58.819+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:02:04.103+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:02:04.221+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:02:04.975+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 6.363 seconds
+[2023-03-06T16:02:36.132+0000] {processor.py:153} INFO - Started process (PID=101) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:02:36.149+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:02:36.169+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:02:36.168+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:02:38.486+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:02:38.503+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:02:38.841+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 2.813 seconds
+[2023-03-06T16:03:10.035+0000] {processor.py:153} INFO - Started process (PID=126) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:03:10.041+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:03:10.047+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:03:10.047+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:03:11.051+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:03:11.053+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:03:11.075+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 1.054 seconds
+[2023-03-06T16:03:42.006+0000] {processor.py:153} INFO - Started process (PID=163) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:03:42.088+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:03:42.119+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:03:42.117+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:03:43.751+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:03:43.764+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:03:43.996+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 2.093 seconds
+[2023-03-06T16:04:15.574+0000] {processor.py:153} INFO - Started process (PID=191) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:04:15.624+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:04:15.638+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:04:15.638+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:04:19.984+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:04:20.052+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:04:20.344+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 4.939 seconds
+[2023-03-06T16:04:52.439+0000] {processor.py:153} INFO - Started process (PID=222) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:04:52.502+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:04:52.520+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:04:52.519+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:04:56.882+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:04:56.938+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:04:57.249+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 4.879 seconds
+[2023-03-06T16:05:28.029+0000] {processor.py:153} INFO - Started process (PID=252) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:05:28.033+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:05:28.035+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:05:28.035+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:05:29.472+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:05:29.477+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:05:29.548+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 1.526 seconds
+[2023-03-06T16:06:00.523+0000] {processor.py:153} INFO - Started process (PID=275) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:06:00.527+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:06:00.567+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:06:00.567+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:06:06.060+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:06:06.146+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:06:06.731+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 6.300 seconds
+[2023-03-06T16:06:44.213+0000] {processor.py:153} INFO - Started process (PID=297) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:06:44.236+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:06:44.272+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:06:44.272+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:06:48.027+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:06:48.069+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:06:48.435+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 4.381 seconds
+[2023-03-06T16:07:20.873+0000] {processor.py:153} INFO - Started process (PID=325) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:07:20.891+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:07:20.908+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:07:20.907+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:07:25.371+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:07:25.401+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:07:26.540+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 5.852 seconds
+[2023-03-06T16:07:59.861+0000] {processor.py:153} INFO - Started process (PID=347) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:08:00.021+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:08:00.110+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:08:00.109+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:08:11.351+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:08:11.634+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:08:12.267+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 12.777 seconds
+[2023-03-06T16:08:46.064+0000] {processor.py:153} INFO - Started process (PID=380) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:08:46.069+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:08:46.072+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:08:46.072+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:08:47.211+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:08:47.213+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:08:47.274+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 1.263 seconds
+[2023-03-06T16:09:18.503+0000] {processor.py:153} INFO - Started process (PID=415) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:09:18.510+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:09:18.515+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:09:18.515+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:09:19.515+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:09:19.520+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:09:19.543+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 1.051 seconds
+[2023-03-06T16:09:58.680+0000] {processor.py:153} INFO - Started process (PID=455) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:09:58.687+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:09:58.689+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:09:58.688+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:09:59.219+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:09:59.220+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:09:59.237+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 0.575 seconds
+[2023-03-06T16:10:36.288+0000] {processor.py:153} INFO - Started process (PID=490) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:10:36.294+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:10:36.300+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:10:36.299+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:10:36.895+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:10:36.896+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:10:36.925+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 0.649 seconds
+[2023-03-06T16:11:10.272+0000] {processor.py:153} INFO - Started process (PID=530) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:11:10.276+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:11:10.281+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:11:10.280+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:11:11.188+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:11:11.208+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:11:11.409+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 1.156 seconds
+[2023-03-06T16:11:42.285+0000] {processor.py:153} INFO - Started process (PID=563) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:11:42.288+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:11:42.292+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:11:42.291+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:11:42.687+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:11:42.689+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:11:42.711+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 0.430 seconds
+[2023-03-06T16:12:13.036+0000] {processor.py:153} INFO - Started process (PID=594) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:12:13.038+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:12:13.040+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:12:13.040+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:12:13.436+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:12:13.437+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:12:13.456+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 0.429 seconds
+[2023-03-06T16:12:44.477+0000] {processor.py:153} INFO - Started process (PID=637) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:12:44.487+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:12:44.491+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:12:44.490+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:12:45.773+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:12:45.777+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:12:45.842+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 1.376 seconds
+[2023-03-06T16:13:16.368+0000] {processor.py:153} INFO - Started process (PID=667) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:13:16.377+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:13:16.381+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:13:16.380+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:13:17.059+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:13:17.061+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:13:17.128+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 0.805 seconds
+[2023-03-06T16:13:47.417+0000] {processor.py:153} INFO - Started process (PID=711) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:13:47.421+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:13:47.423+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:13:47.423+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:13:48.261+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:13:48.264+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:13:48.285+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 0.879 seconds
+[2023-03-06T16:14:18.662+0000] {processor.py:153} INFO - Started process (PID=742) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:14:18.665+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:14:18.667+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:14:18.667+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:14:19.117+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:14:19.118+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:14:19.142+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 0.485 seconds
+[2023-03-06T16:14:49.324+0000] {processor.py:153} INFO - Started process (PID=786) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:14:49.326+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:14:49.328+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:14:49.328+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:14:49.581+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:14:49.582+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:14:49.607+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 0.287 seconds
+[2023-03-06T16:15:20.014+0000] {processor.py:153} INFO - Started process (PID=817) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:15:20.015+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:15:20.017+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:15:20.016+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:15:20.484+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:15:20.485+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:15:20.500+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 0.490 seconds
+[2023-03-06T16:15:50.993+0000] {processor.py:153} INFO - Started process (PID=860) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:15:50.996+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:15:50.998+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:15:50.998+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:15:51.232+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:15:51.233+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:15:51.249+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 0.262 seconds
+[2023-03-06T16:16:21.665+0000] {processor.py:153} INFO - Started process (PID=903) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:16:21.668+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:16:21.669+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:16:21.669+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:16:21.985+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:16:21.986+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:16:22.002+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 0.340 seconds
+[2023-03-06T16:16:52.410+0000] {processor.py:153} INFO - Started process (PID=934) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:16:52.413+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:16:52.414+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:16:52.414+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:16:52.689+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:16:52.690+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:16:52.708+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 0.306 seconds
+[2023-03-06T16:17:23.153+0000] {processor.py:153} INFO - Started process (PID=978) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:17:23.156+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:17:23.158+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:17:23.158+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:17:23.346+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:17:23.347+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:17:23.364+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 0.219 seconds
+[2023-03-06T16:17:54.119+0000] {processor.py:153} INFO - Started process (PID=1022) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:17:54.122+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:17:54.124+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:17:54.123+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:17:54.395+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:17:54.396+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:17:54.410+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 0.301 seconds
+[2023-03-06T16:27:26.603+0000] {processor.py:153} INFO - Started process (PID=1051) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:27:26.612+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:27:26.620+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:27:26.620+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:27:35.209+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:27:35.212+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:27:35.263+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 8.711 seconds
+[2023-03-06T16:28:05.650+0000] {processor.py:153} INFO - Started process (PID=1099) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:28:05.660+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:28:05.666+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:28:05.665+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:28:05.980+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:28:05.981+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:28:06.036+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 0.395 seconds
+[2023-03-06T16:28:36.292+0000] {processor.py:153} INFO - Started process (PID=1130) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:28:36.294+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:28:36.296+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:28:36.296+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:28:36.564+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:28:36.565+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:28:36.586+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 0.300 seconds
+[2023-03-06T16:29:06.883+0000] {processor.py:153} INFO - Started process (PID=1174) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:29:06.886+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:29:06.887+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:29:06.887+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:29:07.193+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:29:07.194+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:29:07.210+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 0.331 seconds
+[2023-03-06T16:29:37.591+0000] {processor.py:153} INFO - Started process (PID=1205) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:29:37.593+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:29:37.595+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:29:37.595+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:29:37.867+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:29:37.868+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:29:37.890+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 0.305 seconds
+[2023-03-06T16:30:08.112+0000] {processor.py:153} INFO - Started process (PID=1249) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:30:08.115+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:30:08.116+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:30:08.116+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:30:08.451+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:30:08.454+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:30:08.501+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 0.399 seconds
+[2023-03-06T16:30:38.965+0000] {processor.py:153} INFO - Started process (PID=1280) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:30:38.968+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:30:38.969+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:30:38.969+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:30:39.326+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:30:39.327+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:30:39.348+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 0.388 seconds
+[2023-03-06T16:31:09.413+0000] {processor.py:153} INFO - Started process (PID=1323) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:31:09.416+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:31:09.417+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:31:09.417+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:31:09.726+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:31:09.727+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:31:09.754+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 0.344 seconds
+[2023-03-06T16:31:40.594+0000] {processor.py:153} INFO - Started process (PID=1354) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:31:40.596+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:31:40.597+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:31:40.597+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:31:40.890+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:31:40.892+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:31:40.919+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 0.329 seconds
+[2023-03-06T16:32:11.185+0000] {processor.py:153} INFO - Started process (PID=1397) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:32:11.188+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:32:11.190+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:32:11.189+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:32:11.566+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:32:11.568+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:32:11.583+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 0.403 seconds
+[2023-03-06T16:32:41.685+0000] {processor.py:153} INFO - Started process (PID=1440) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:32:41.691+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:32:41.694+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:32:41.694+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:32:41.981+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:32:41.982+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:32:41.999+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 0.322 seconds
+[2023-03-06T16:33:12.199+0000] {processor.py:153} INFO - Started process (PID=1473) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:33:12.201+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:33:12.202+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:33:12.202+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:33:12.624+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:33:12.625+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:33:12.646+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 0.452 seconds
+[2023-03-06T16:33:43.552+0000] {processor.py:153} INFO - Started process (PID=1515) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:33:43.554+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:33:43.556+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:33:43.555+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:33:44.030+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:33:44.035+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:33:44.133+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 0.586 seconds
+[2023-03-06T16:34:14.944+0000] {processor.py:153} INFO - Started process (PID=1545) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:34:14.946+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:34:14.947+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:34:14.947+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:34:15.299+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:34:15.301+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:34:15.329+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 0.391 seconds
+[2023-03-06T16:34:46.197+0000] {processor.py:153} INFO - Started process (PID=1574) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:34:46.212+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:34:46.235+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:34:46.234+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:34:47.372+0000] {logging_mixin.py:137} INFO - Website is not changed.
+[2023-03-06T16:34:47.374+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:34:47.460+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/cms_pg/download_file.py took 1.339 seconds
+[2023-03-06T16:35:25.243+0000] {processor.py:153} INFO - Started process (PID=1593) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:35:25.454+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:35:25.500+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:35:25.500+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:39:19.988+0000] {processor.py:153} INFO - Started process (PID=1618) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:39:23.577+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:39:26.819+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:39:25.727+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:39:59.906+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:39:59.835+0000] {timeout.py:68} ERROR - Process timed out, PID: 1618
+[2023-03-06T16:40:58.303+0000] {processor.py:153} INFO - Started process (PID=1628) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:40:58.574+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:40:58.607+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:40:58.605+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:41:30.291+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:41:29.716+0000] {timeout.py:68} ERROR - Process timed out, PID: 1628
+[2023-03-06T16:41:45.444+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:41:30.803+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/cms_pg/download_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/cms_pg/download_file.py", line 8, in <module>
+    from cms_pg.page_change import website_changed
+  File "/opt/airflow/dags/cms_pg/page_change.py", line 2, in <module>
+    from bs4 import BeautifulSoup
+  File "/home/airflow/.local/lib/python3.7/site-packages/bs4/__init__.py", line 37, in <module>
+    from .builder import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/bs4/builder/__init__.py", line 9, in <module>
+    from bs4.element import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/bs4/element.py", line 12, in <module>
+    import soupsieve
+  File "/home/airflow/.local/lib/python3.7/site-packages/soupsieve/__init__.py", line 29, in <module>
+    from . import css_parser as cp
+  File "/home/airflow/.local/lib/python3.7/site-packages/soupsieve/css_parser.py", line 5, in <module>
+    from . import css_match as cm
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 963, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 906, in _find_spec
+  File "<frozen importlib._bootstrap>", line 861, in __exit__
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/cms_pg/download_file.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.5.1/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.5.1/best-practices.html#reducing-dag-complexity, PID: 1628
+[2023-03-06T16:42:40.274+0000] {processor.py:153} INFO - Started process (PID=1633) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:42:40.963+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:42:41.070+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:42:41.067+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:43:16.794+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:43:16.529+0000] {timeout.py:68} ERROR - Process timed out, PID: 1633
+[2023-03-06T16:43:20.264+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:43:16.977+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/cms_pg/download_file.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/sre_parse.py", line 924, in parse
+    p = _parse_sub(source, pattern, flags & SRE_FLAG_VERBOSE, 0)
+  File "/usr/local/lib/python3.7/sre_parse.py", line 420, in _parse_sub
+    not nested and not items))
+  File "/usr/local/lib/python3.7/sre_parse.py", line 793, in _parse
+    raise Verbose
+sre_parse.Verbose
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/cms_pg/download_file.py", line 8, in <module>
+    from cms_pg.page_change import website_changed
+  File "/opt/airflow/dags/cms_pg/page_change.py", line 2, in <module>
+    from bs4 import BeautifulSoup
+  File "/home/airflow/.local/lib/python3.7/site-packages/bs4/__init__.py", line 37, in <module>
+    from .builder import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/bs4/builder/__init__.py", line 9, in <module>
+    from bs4.element import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/bs4/element.py", line 12, in <module>
+    import soupsieve
+  File "/home/airflow/.local/lib/python3.7/site-packages/soupsieve/__init__.py", line 28, in <module>
+    from .__meta__ import __version__, __version_info__  # noqa: F401
+  File "/home/airflow/.local/lib/python3.7/site-packages/soupsieve/__meta__.py", line 11, in <module>
+    '''
+  File "/usr/local/lib/python3.7/re.py", line 236, in compile
+    return _compile(pattern, flags)
+  File "/usr/local/lib/python3.7/re.py", line 288, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/usr/local/lib/python3.7/sre_compile.py", line 764, in compile
+    p = sre_parse.parse(p, flags)
+  File "/usr/local/lib/python3.7/sre_parse.py", line 932, in parse
+    p = _parse_sub(source, pattern, True, 0)
+  File "/usr/local/lib/python3.7/sre_parse.py", line 420, in _parse_sub
+    not nested and not items))
+  File "/usr/local/lib/python3.7/sre_parse.py", line 805, in _parse
+    group = state.opengroup(name)
+  File "/usr/local/lib/python3.7/sre_parse.py", line 84, in opengroup
+    def opengroup(self, name=None):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/cms_pg/download_file.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.5.1/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.5.1/best-practices.html#reducing-dag-complexity, PID: 1633
+[2023-03-06T16:43:22.642+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:44:45.209+0000] {processor.py:153} INFO - Started process (PID=1636) to work on /opt/airflow/dags/cms_pg/download_file.py
+[2023-03-06T16:44:45.769+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/cms_pg/download_file.py for tasks to queue
+[2023-03-06T16:44:45.783+0000] {logging_mixin.py:137} INFO - [2023-03-06T16:44:45.783+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cms_pg/download_file.py
